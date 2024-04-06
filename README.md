@@ -1,9 +1,9 @@
 
 # Linux
 
-- Linux is a Unix Like Os Developed By Linus Torvalds and thousands of opensource contributors
+- Linux is a Unix-like OS developed By Linus Torvalds and thousands of opensource contributors
 
-- Linux is an Opeereating Systom it is reliable and secure that others; 
+- Linux is an operating system it is more reliable and secure than others; 
 
 - Completely opensource
 
@@ -11,7 +11,7 @@
 
 - Linux is everywhere!
 
-        - 85% all Smartphones are based Linux.
+        - 85% of all Smartphones are based on Linux.
 
         - Car Uses Linux Especially self-driving cars
 
@@ -26,7 +26,7 @@
 
 - PowerShell for scripting
 
-- Need to Purchase License 
+- Need to Purchase a License 
 
 - Requires antivirus software
 
@@ -40,7 +40,7 @@
 
 - License is free
 
-- More secure thatn Windows
+- More secure than Windows
 
 - Less developer focus on Gaming
 
@@ -48,17 +48,17 @@
 
 - Opensource
 
-- Freely availabe
+- Freely available
 
 - Secure
 
-- Lightwight Interface 
+- Lightweight Interface 
 
-- Multy user Os
+- Multi user Os
 
 #### Disadvantages
 
-- Harder Learing curve 
+- Harder Learning curve 
 
 - Hardware drivers
 
@@ -66,18 +66,18 @@
 
 - Poor support for Gaming
 
-- Difficult to Trubleshoot
+- Difficult to Troubleshoot
 
 ## GNU/Linux
-GNU/Linux is a unix-like Os made up of different OS components and services that create the Linux OS.
+GNU/Linux is a Unix-like Os made up of different OS components and services that create the Linux OS.
 
-## Linux Destros
+## Linux Distros
 
-- debian
+- Debian
 
 - fedora
 
-- ubuntu
+- Ubuntu
 
 - Linux mint
 
@@ -91,7 +91,7 @@ GNU/Linux is a unix-like Os made up of different OS components and services that
 
 ## Basics of shell
 
-A Shell interprets the commands we have enteredsends it to the OS to perform them 
+A Shell interprets the commands we have entered send into the OS to perform them 
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20200105215737/Untitled-Diagram-215-1.jpg)
 
@@ -107,4 +107,70 @@ A Shell interprets the commands we have enteredsends it to the OS to perform the
     Friendly and Interactive shell is again an extended version of the common shell. It has great features like autocompletion of commands
 
 - tcsh:
-    Tenex C shell is an extended version of C shell. The plus of tcshis its scripting language, because it will be similar for users with experience in C programming
+    Tenex C shell is an extended version of the C shell. The plus of tcshis its scripting language, because it will be similar for users with experience in C programming
+
+#### CLI
+
+- Linux provides an interface for users
+
+- Interact with OS
+
+- Bridge between human-readable commands and underlying kernel
+
+## Basics of Kernel
+
+a Linux Kernel is a Unix Like OS Kernel. It is a computer program witch is the core interface witch connect Hardware companies to the software processes
+
+    The kernel is a computer program that acts as the brain and centre of os
+
+#### Top operations performed by a Kernel
+
+- Process Management:
+    `The kernel Keeps track of all active processes running on the system and it maintains a process table that conatins information about each process`
+
+- Memory Management:
+    `The kernel handles memory allocation and protection`
+
+- Device Management:
+    `The kernel interacts with hardware devices such as disks, networks interface and peripherals it provides an interface for user-level applications to communicate with these devices`
+
+- Input/Output(I/O) Communication:
+    `The kernel facilitates communication between user-level applications and hardware'
+
+## Linux Directory Structure
+
+|Directories|Description|
+|:-----------:|:------------------------------------------:|
+|/bin|essential user binaries such as the bash shell ls, cp commands|
+|/boot|contain files needed to boot the system|
+|/dev| It is the location of the device files such as dev/sda1, dev/sda2, etc.|
+|/etc|system configuration files such as network settings, user a/c info, etc.|
+|/home|user home directory. It is the default current directory|
+|/Lib|system Libraries and kernel modules|
+|/media|mount points for external/removable devices such as cd, DVD and USB drives.|
+|/mnt|Temporary mount points|
+|/opt|optional or third-party software.|
+|/proc|conatinsinfo about the running processes with a specific process ID or PID|
+|/root|root user home directory ie, system admin|
+|/run|it stores volatile runtime data.|
+|/sbin| binary executable programs for an administrator.|
+|/temp|Temporary Files|
+|/srv|It contains server-specific and server-related files.|
+|/usr|User related programs|
+|/var|log files / variable data or files that change frequently|
+
+## Baisc commands
+
+nithin@nithinspc2:~$:
+- username:nithin
+- hostname:nithinspc2
+- ~: representing home directory
+
+### Commands
+|Commands|Description or example|
+|:--------------:|:--------------------------------------|
+|man| manual of commands|
+|sudo|superuser do root level permissions|
+|pwd|present working directory|
+|ls|list the files and folders|
+
