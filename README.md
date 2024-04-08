@@ -167,10 +167,52 @@ nithin@nithinspc2:~$:
 - ~: representing home directory
 
 ### Commands
+
 |Commands|Description or example|
 |:--------------:|:--------------------------------------|
 |man| manual of commands|
 |sudo|superuser do root level permissions|
 |pwd|present working directory|
+|free|display free and used memory|
+|du|disk usage how much space a file or directory|
+|df|disk free, use to report systom disk space|
+|hostname|show or set system name or show ip|
+|logname|for display logname|
+|uname|basic info about the os|
 |ls|list the files and folders|
+|cd|To navigate b/w Directories|
+|mkdir|to create Directories|
+|rmkdir|to remove Directories|
+|rm|remove file or directory|
+|clear|clear terminals content|
+|history|to see commands history|
+|w|show logged users in the system also show corrent process|
+|last|dispaly the list of all users logged in since 'var/log/wtmp' was created|
+|alias|alias p='pwd'|
+|touch|to create empty file|
+|cat|to see what inside the file|
+|tac|to see reverse order inside the file|
+|head|to see top 10 inside file -n num of lines|
+|tail|bottom 10|
+|sort|sort the file content|
+|echo|print text on the terminal|
+|mv|Move or Rename the file|
+|cp|copy fiels or Directories|
+|lscpu|list cpu info|
+|lsusb|usb divice list|
+|lsblk|list block divicess / show all connected storage divicess|
+|which|for find path of Executable file|
+|whereis|view the exact location of any command|
+|wget|downlaod files from internet|
+|grep|serch specific string on output|
+|cal|calendar|
+|date|date|
+|reboot|for reboot system|
+|poweroff|for poweroff system|
+|uptime|find how long is system active|
+|ip addr show|show the address of conecting all interface of the Linux|
+|ping|to check network connectivity also show the response time ping www.google.com|
+|find|search file give the file path find /home /cat.png|
+
+
 
