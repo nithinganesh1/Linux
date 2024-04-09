@@ -214,5 +214,47 @@ nithin@nithinspc2:~$:
 |ping|to check network connectivity also show the response time ping www.google.com|
 |find|search file give the file path find /home /cat.png|
 
+## Test Management commands
 
+|Commands|Description or example|
+|:--------------:|:--------------------------------------|
+|cat|to see what inside the file|
+|tac|to see reverse order inside the file|
+|head|to see top 10 inside file -n num of lines|
+|tail|bottom 10|
+|sort|sort the file content|
+|echo|print text on the terminal|
+|find|serch file adn directory in a hirarical Structure|
+|grep|serch specific string on output|
+|more|read content of a file by page on page|
+|less|same as more advance version doesn’t load the entire file but loads it part by part which makes it faster|
+|wc|word count|
+
+---
+
+**'|' Pipe operator:** 
+
+A pipe is a form of redirection (transfer of standard output to some other destination), The pipe is used to combine two or more commands, and in this, the output of one command acts as input to another command 
+
+eg.   ls | grep file.txt 
+
+---
+
+---
+
+**Globing** 
+1) asterisk (*) 
+\* is used to match any number of characters(zero or more), to understand more you can refer to the example taken above. 
+
+2) question mark(?) 
+? is used to match exactly one character. 
+
+3) Square Brackets [] 
+Square brackets are used to match the characters inside []
+‘hello[1-5]’ will display all files and directories starting with ‘hello’, then the next character can be a number from 1 to 5. 
+
+4) exclamation mark (!) 
+! is used to exclude characters from the list that is specified within the square brackets.
+ls hello[!3]
+dislpay ending with eny character but not 3
 
