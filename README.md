@@ -1,6 +1,6 @@
 
 # Linux
-
+A kernel is the core part of an operating system. It acts as a bridge between software applications and the hardware of a computer. The kernel manages system resources, such as the CPU, memory, and devices, ensuring everything works together smoothly and efficiently. It handles tasks like running programs, accessing files, and connecting to devices like printers and keyboards.
 - Linux is a Unix-like OS developed By Linus Torvalds and thousands of opensource contributors
 
 - Linux is an operating system it is more reliable and secure than others; 
