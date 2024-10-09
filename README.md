@@ -182,7 +182,7 @@ nithin@nithinspc2:~$:
 |ls|list the files and folders|
 |cd|To navigate b/w Directories|
 |mkdir|to create Directories|
-|rmkdir|to remove Directories|
+|rmdir|to remove Directories|
 |rm|remove file or directory|
 |clear|clear terminals content|
 |history|to see commands history|
